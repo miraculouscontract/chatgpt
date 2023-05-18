@@ -194,6 +194,9 @@ $type = "个人";
                                 <div class="right-btn layout-bar">
                                     <p class="btn ai-btn bright-btn" id="ai-btn" data-flex="main:center cross:center"><i class="iconfont icon-wuguan"></i>发送</p>
                                 </div>
+                                <div class="right-btn layout-bar">
+                                    <p class="btn ai-btn bright-btn" id="clean" data-flex="main:center cross:center"><i class="iconfont icon-wuguan"></i>清空</p>
+                                </div>
                             </div>
                         </div>
                     </div>
