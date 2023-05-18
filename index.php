@@ -38,12 +38,6 @@ $type = "个人";
     <div class="layout-wrap">
         <header class="layout-header">
             <div class="container" data-flex="main:justify cross:start">
-                <div class="header-logo">
-                    <h2 class="logo"><a class="links" id="clean" title="清空对话信息"><span class="logo-title">清空对话信息</span></a></h2>
-                </div>
-                <div class="header-logo">
-                    <h2 class="logo"><a class="links" href="https://github.com/dirk1983/chatgpt"><span class="logo-title">获取源码</span></a></h2>
-                </div>
             </div>
         </header>
         <div class="layout-content">
@@ -195,7 +189,8 @@ $type = "个人";
                                     <p class="btn ai-btn bright-btn" id="ai-btn" data-flex="main:center cross:center"><i class="iconfont icon-wuguan"></i>发送</p>
                                 </div>
                                 <div class="right-btn layout-bar">
-                                    <p class="btn bright-btn"  data-flex="main:center cross:center"><i class="iconfont icon-wuguan"></i><a id="clean" title="清空对话信息">清空</a></p>
+                                    <p><a id="clean"
+                                            title="清空对话信息" class ="btn bright-btn" data-flex="main:center cross:center"><span >清空</span></a></p>
                                 </div>
                             </div>
                         </div>
